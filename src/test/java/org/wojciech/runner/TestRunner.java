@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(stepNotifications = true, plugin = {"pretty",
         "html:target/cucumber-report.html", "json:target/jsonReports/cucumber.json"},
-        glue = "com.aleks.functiontest",
+        glue = "org.wojciech.functiontest",
         features = "src/test/resources/features",
         tags = ("@smoke and not @disabled")
 )

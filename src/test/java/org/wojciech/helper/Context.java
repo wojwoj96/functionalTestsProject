@@ -1,4 +1,9 @@
 package org.wojciech.helper;
 
-public class Context {
+public enum Context {
+    SCENARIO,
+    RESPONSE_STATUS,
+    RESPONSE_BODY,
+    RESPONSE,
+
 }
