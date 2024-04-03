@@ -1,0 +1,12 @@
+{
+  "payments": [
+    {
+      "policyNumber": "{policyNumber}",
+      "paymentDate": "2024-04-03",
+      "installment": 1,
+      "totalAmount": 100.60,
+      "currencyCode": "PLN",
+      "paymentStatus": "PAID"
+    }
+  ]
+}
